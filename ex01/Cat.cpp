@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/20 12:51:45 by rexposit          #+#    #+#             */
-/*   Updated: 2026/06/21 20:27:13 by rexposit         ###   ########.fr       */
+/*   Updated: 2026/06/21 20:44:41 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ Cat	&Cat::operator=(const Cat &other)
 
 Cat::~Cat(void)
 {
-	std::cout << "Dog destructor called\n";
+	std::cout << "Cat destructor called\n";
 	delete brain;
 }
 
