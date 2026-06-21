@@ -6,7 +6,7 @@
 #    By: rexposit <rexposit@student.42madrid.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/20 12:51:33 by rexposit          #+#    #+#              #
-#    Updated: 2026/06/21 20:50:56 by rexposit         ###   ########.fr        #
+#    Updated: 2026/06/21 20:55:12 by rexposit         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,8 @@ SRCS = main.cpp \
 	Dog.cpp \
 	Cat.cpp \
 	WrongAnimal.cpp \
-	WrongCat.cpp
+	WrongCat.cpp \
+	Brain.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
