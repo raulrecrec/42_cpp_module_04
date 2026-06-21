@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+         #
+#    By: rexposit <rexposit@student.42madrid.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/20 12:51:33 by rexposit          #+#    #+#              #
-#    Updated: 2026/06/20 13:57:35 by rexposit         ###   ########.fr        #
+#    Updated: 2026/06/21 20:42:10 by rexposit         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = animal
+NAME = brain
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
@@ -20,7 +20,8 @@ SRCS = main.cpp \
 	Dog.cpp \
 	Cat.cpp \
 	WrongAnimal.cpp \
-	WrongCat.cpp
+	WrongCat.cpp \
+	Brain.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
